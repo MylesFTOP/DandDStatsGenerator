@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DandDStatsGenerator", "DandDStatsGenerator\DandDStatsGenerator.csproj", "{69861BC6-1AAF-4ED2-9998-E149EEB6EAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DandDLibrary", "DandDLibrary\DandDLibrary.csproj", "{2D0CDD0F-4658-495D-9D9D-71A4D48BF22F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69861BC6-1AAF-4ED2-9998-E149EEB6EAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69861BC6-1AAF-4ED2-9998-E149EEB6EAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69861BC6-1AAF-4ED2-9998-E149EEB6EAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69861BC6-1AAF-4ED2-9998-E149EEB6EAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0CDD0F-4658-495D-9D9D-71A4D48BF22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0CDD0F-4658-495D-9D9D-71A4D48BF22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0CDD0F-4658-495D-9D9D-71A4D48BF22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0CDD0F-4658-495D-9D9D-71A4D48BF22F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52A9AD32-5C04-4063-B9BB-229A728BFD4B}
+	EndGlobalSection
+EndGlobal
