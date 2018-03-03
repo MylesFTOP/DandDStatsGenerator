@@ -19,8 +19,8 @@ namespace DandDStatsGenerator
 
         static void Main(string[] args)
         {
-            SetUpSampleCharacter();
-            GreetAllTheCharacters();
+           // SetUpSampleCharacter();
+           // GreetAllTheCharacters();
         }
 
         private static void SetUpSampleCharacter()

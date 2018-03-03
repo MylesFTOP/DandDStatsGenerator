@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace DandDStatsGenerator
 {
-    public partial class MainForm : Form
+    public partial class CharacterManagerForm : Form
     {
-        public MainForm()
+        public CharacterManagerForm()
         {
             InitializeComponent();
         }
 
         private void GenerateStats_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
