@@ -1,0 +1,9 @@
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\bin\Debug\StatGeneratorConsole.exe.config
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\bin\Debug\StatGeneratorConsole.exe
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\bin\Debug\StatGeneratorConsole.pdb
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\bin\Debug\DandDLibrary.dll
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\bin\Debug\DandDLibrary.pdb
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\obj\Debug\StatGeneratorConsole.csproj.CoreCompileInputs.cache
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\obj\Debug\StatGeneratorConsole.exe
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\obj\Debug\StatGeneratorConsole.pdb
+C:\Users\Myles\source\repos\DandDStatsGenerator\StatGeneratorConsole\obj\Debug\StatGeneratorConsole.csprojResolveAssemblyReference.cache
