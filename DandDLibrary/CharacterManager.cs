@@ -1,23 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DandDLibrary
 {
-    class CharacterManager
+    public class CharacterManager
     {
         public static List<Character> SetUpSampleCharacters()
         {
-            List<Character> list = new List<Character>();
+            List<Character> characters = new List<Character>();
 
-            list.Add(new Character { FirstName = "Bob", LastName = "Smith", Strength = 15 });
-            list.Add(new Character { FirstName = "John", LastName = "Smith", Strength = 12 });
-            list.Add(new Character { FirstName = "Buffy", LastName = "Summers", Strength = 19 });
-            list.Add(new Character { FirstName = "Sarah Jessica", LastName = "Parker", Strength = 16 });
-            list.Add(new Character { FirstName = "Professor", LastName = "Xavier", Strength = 11 });
-            list.Add(new Character { FirstName = "Robin", LastName = "Locksley", Strength = 14 });
+            characters.Add(new Character { FirstName = "Bob", LastName = "Smith", Strength = 15 } );
+            characters.Add(new Character { FirstName = "John", LastName = "Smith", Strength = 12 } );
+            characters.Add(new Character { FirstName = "Buffy", LastName = "Summers", Strength = 19 } );
+            characters.Add(new Character { FirstName = "Sarah Jessica", LastName = "Parker", Strength = 16 } );
+            characters.Add(new Character { FirstName = "Professor", LastName = "Xavier", Strength = 11 } );
+            characters.Add(new Character { FirstName = "Robin", LastName = "Locksley", Strength = 14 } );
 
-            return list;
+            return characters;
         }
         
     }

@@ -15,17 +15,13 @@ namespace DandDStatsGenerator
         // Add rows for important stats
         // Export to JSON and XML?
 
-        private static List<Character> characters = new List<Character>();
+        private static List<Character> characters = CharacterManager.SetUpSampleCharacters();
 
         static void Main(string[] args)
         {
-           // SetUpSampleCharacter();
-           // GreetAllTheCharacters();
-        }
+          //  GreetAllTheCharacters();
 
-        private static void SetUpSampleCharacter()
-        {
-            characters.Add(new Character { FirstName = "Bob", LastName = "Smith", Strength = 15 });
+          //  Console.ReadLine();
         }
 
         private static void GreetAllTheCharacters()

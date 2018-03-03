@@ -9,11 +9,13 @@ namespace StatGeneratorConsole
 {
     class Program
     {
+        private static List<Character> characters = CharacterManager.SetUpSampleCharacters();
 
         static void Main(string[] args)
         {
-            CharacterManager.SetUpSampleCharacters();
             GreetAllTheCharacters();
+
+            Console.ReadLine();
         }
 
         private static void GreetAllTheCharacters()
