@@ -16,11 +16,24 @@ namespace DandDLibrary
         public int Wisdom { get; set; }
         public int Charisma { get; set; }
 
+        public int ExperiencePoints { get; set; }
+        public int HitPoints { get; set; }
+
         public string FullName
         {
             get
             {
                 return $"{ FirstName } { LastName }";
+            }
+        }
+
+        public double Level
+        {
+            get
+            {
+                // Placeholder code - this will need to be updated with proper calculation
+                var Level = Math.Floor(ExperiencePoints / 1000d);
+                return Level;
             }
         }
 
